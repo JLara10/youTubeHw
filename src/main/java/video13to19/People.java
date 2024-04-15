@@ -1,4 +1,4 @@
-package video13;
+package video13to19;
 
 public class People {
    //classes can contain
@@ -26,5 +26,5 @@ public class People {
     public String getSport() {
         return sport;
     }
-    
+
 }
