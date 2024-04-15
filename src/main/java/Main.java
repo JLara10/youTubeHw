@@ -49,7 +49,7 @@ public class Main {
         }
         System.out.println("========");
         //Video 6 if statement
-        int age = 33;
+        int age = 16;
         if(age >= 21){
             System.out.println("What drink would you like?");
         }else if(age >= 18){
@@ -68,10 +68,22 @@ public class Main {
             System.out.println("walking");
         }
         System.out.println("========");
-        //Video 7 Getting User Input
+        //Video 7 Getting User Input and Video 8 Do while loop!
         Scanner scanner = new Scanner(System.in);
-        System.out.println("What is your age?");
-        int age2 = scanner.nextInt();
-        System.out.println("That's cool!");
+        int age2 = 0;
+
+
+        do{
+            System.out.println("What is legal drinking age?");
+            age2 = scanner.nextInt();
+        }
+        while(age2 != 21);
+        System.out.println("That is correct!");
+
+        scanner.close();
+        System.out.println("========");
+
+
+
     }
 }
