@@ -1,4 +1,4 @@
-package video13to19;
+package video13to22;
 //video 19 static and final
 public class Fish {
     public final static String WATER_TYPE = "Fresh water!";

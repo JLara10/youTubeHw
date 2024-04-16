@@ -1,4 +1,4 @@
-package video13to19;
+package video13to22;
 
 public class Classes {
     public static void main(String[] args) {
@@ -49,5 +49,33 @@ public class Classes {
         fish1.type = "bass";
         fish1.fishInfo();
         System.out.println("The fish lives in " + Fish.WATER_TYPE);
+        System.out.println("==========");
+        //video 20
+        StringBuilder barca = new StringBuilder();
+        barca.append("Lets go barca");
+        barca.append(" we must win!!");
+        System.out.println(barca.toString());
+        //Formatting
+        System.out.println("If we lose,\tim gonna be pissed off\tfor the whole week."  );
+        System.out.printf("The score will be %-1d to %d\n", 3, 1);//use printf not println for this
+        System.out.println("==========");
+        //video 21
+        Tiger tiger1 = new Tiger(450, "Frosty");
+        Tiger tiger2 = new Tiger(500, "Tony");
+        System.out.println(tiger1);
+        System.out.println(tiger2);
+        System.out.println("==========");
+        //video 22 inheritance class truck extends Car
+        Car car1 = new Car();
+        car1.start();
+        car1.stop();
+
+        Truck truck1 = new Truck();
+        truck1.start();
+        truck1.stop();
+        truck1.color();
+        System.out.println("==========");
+        //video 23 interfaces
+
     }
 }
